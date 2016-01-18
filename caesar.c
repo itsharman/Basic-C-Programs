@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     string input = GetString();
     
     //for-loop that goes on until it reaches the end of the string
-    for (int i = 0; i < strlen(input); i++) {
+    for (int i = 0, n = strlen(input); i < n; i++) {
         // if (input[i] > 64 && input[i] < 123) {
         //     input[i] += k;
         //     if (input[i] > 90 && input[i] < 97) input[i] -= 26;
