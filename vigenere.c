@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     }
     
     //for-loop confirms that the input consists of only alphanumeric characters
-    for (int i = 0; i < strlen(argv[1]); i++) {
+    for (int i = 0, n = strlen(argv[1]); i < n; i++) {
         if (!isalpha(argv[1][i])) {
             printf("You made a mistake! Try again!\n");
             return 1;
