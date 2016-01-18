@@ -14,7 +14,7 @@ int main(void)
     printf("%c", initial);
     
     //for-loop that goes on until it reaches the end of the string
-    for (int i = 0; i < strlen(name); i++) {
+    for (int i = 0, n = strlen(name); i < n; i++) {
         //checks for ends of words & beginnings of new words in string for initials
         if (name[i] == ' ') {
             //updates variable initial upon finding new initials
